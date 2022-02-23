@@ -14,6 +14,7 @@
 		6DEDCC6127C5C15B005DCE8F /* Forismatic_QuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDCC6027C5C15B005DCE8F /* Forismatic_QuoteTests.swift */; };
 		6DEDCC6B27C5C15B005DCE8F /* Forismatic_QuoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDCC6A27C5C15B005DCE8F /* Forismatic_QuoteUITests.swift */; };
 		6DEDCC6D27C5C15B005DCE8F /* Forismatic_QuoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDCC6C27C5C15B005DCE8F /* Forismatic_QuoteUITestsLaunchTests.swift */; };
+		6DEDCC7C27C5C1EA005DCE8F /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDCC7B27C5C1EA005DCE8F /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		6DEDCC6627C5C15B005DCE8F /* Forismatic QuoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forismatic QuoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DEDCC6A27C5C15B005DCE8F /* Forismatic_QuoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forismatic_QuoteUITests.swift; sourceTree = "<group>"; };
 		6DEDCC6C27C5C15B005DCE8F /* Forismatic_QuoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forismatic_QuoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DEDCC7B27C5C1EA005DCE8F /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				6DEDCC4F27C5C135005DCE8F /* Forismatic_QuoteApp.swift */,
+				6DEDCC7A27C5C1B6005DCE8F /* Model */,
+				6DEDCC7927C5C1AB005DCE8F /* Views */,
 				6DEDCC5127C5C135005DCE8F /* ContentView.swift */,
 				6DEDCC5327C5C15A005DCE8F /* Assets.xcassets */,
 				6DEDCC5527C5C15A005DCE8F /* Preview Content */,
@@ -125,6 +129,21 @@
 				6DEDCC6C27C5C15B005DCE8F /* Forismatic_QuoteUITestsLaunchTests.swift */,
 			);
 			path = "Forismatic QuoteUITests";
+			sourceTree = "<group>";
+		};
+		6DEDCC7927C5C1AB005DCE8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DEDCC7A27C5C1B6005DCE8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DEDCC7B27C5C1EA005DCE8F /* Quote.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DEDCC5227C5C135005DCE8F /* ContentView.swift in Sources */,
+				6DEDCC7C27C5C1EA005DCE8F /* Quote.swift in Sources */,
 				6DEDCC5027C5C135005DCE8F /* Forismatic_QuoteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
