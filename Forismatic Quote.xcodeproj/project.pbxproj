@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DEDCC5027C5C135005DCE8F /* Forismatic_QuoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDCC4F27C5C135005DCE8F /* Forismatic_QuoteApp.swift */; };
+		6DEDCC5227C5C135005DCE8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDCC5127C5C135005DCE8F /* ContentView.swift */; };
+		6DEDCC5427C5C15A005DCE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DEDCC5327C5C15A005DCE8F /* Assets.xcassets */; };
+		6DEDCC5727C5C15A005DCE8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DEDCC5627C5C15A005DCE8F /* Preview Assets.xcassets */; };
+		6DEDCC6127C5C15B005DCE8F /* Forismatic_QuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDCC6027C5C15B005DCE8F /* Forismatic_QuoteTests.swift */; };
+		6DEDCC6B27C5C15B005DCE8F /* Forismatic_QuoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDCC6A27C5C15B005DCE8F /* Forismatic_QuoteUITests.swift */; };
+		6DEDCC6D27C5C15B005DCE8F /* Forismatic_QuoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDCC6C27C5C15B005DCE8F /* Forismatic_QuoteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DEDCC5D27C5C15B005DCE8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DEDCC4427C5C135005DCE8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DEDCC4B27C5C135005DCE8F;
+			remoteInfo = "Forismatic Quote";
+		};
+		6DEDCC6727C5C15B005DCE8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DEDCC4427C5C135005DCE8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DEDCC4B27C5C135005DCE8F;
+			remoteInfo = "Forismatic Quote";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DEDCC4C27C5C135005DCE8F /* Forismatic Quote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forismatic Quote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEDCC4F27C5C135005DCE8F /* Forismatic_QuoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forismatic_QuoteApp.swift; sourceTree = "<group>"; };
+		6DEDCC5127C5C135005DCE8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6DEDCC5327C5C15A005DCE8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DEDCC5627C5C15A005DCE8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DEDCC5C27C5C15B005DCE8F /* Forismatic QuoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forismatic QuoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEDCC6027C5C15B005DCE8F /* Forismatic_QuoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forismatic_QuoteTests.swift; sourceTree = "<group>"; };
+		6DEDCC6627C5C15B005DCE8F /* Forismatic QuoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forismatic QuoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEDCC6A27C5C15B005DCE8F /* Forismatic_QuoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forismatic_QuoteUITests.swift; sourceTree = "<group>"; };
+		6DEDCC6C27C5C15B005DCE8F /* Forismatic_QuoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forismatic_QuoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DEDCC4927C5C135005DCE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEDCC5927C5C15B005DCE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEDCC6327C5C15B005DCE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DEDCC4327C5C135005DCE8F = {
+			isa = PBXGroup;
+			children = (
+				6DEDCC4E27C5C135005DCE8F /* Forismatic Quote */,
+				6DEDCC5F27C5C15B005DCE8F /* Forismatic QuoteTests */,
+				6DEDCC6927C5C15B005DCE8F /* Forismatic QuoteUITests */,
+				6DEDCC4D27C5C135005DCE8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DEDCC4D27C5C135005DCE8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DEDCC4C27C5C135005DCE8F /* Forismatic Quote.app */,
+				6DEDCC5C27C5C15B005DCE8F /* Forismatic QuoteTests.xctest */,
+				6DEDCC6627C5C15B005DCE8F /* Forismatic QuoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DEDCC4E27C5C135005DCE8F /* Forismatic Quote */ = {
+			isa = PBXGroup;
+			children = (
+				6DEDCC4F27C5C135005DCE8F /* Forismatic_QuoteApp.swift */,
+				6DEDCC5127C5C135005DCE8F /* ContentView.swift */,
+				6DEDCC5327C5C15A005DCE8F /* Assets.xcassets */,
+				6DEDCC5527C5C15A005DCE8F /* Preview Content */,
+			);
+			path = "Forismatic Quote";
+			sourceTree = "<group>";
+		};
+		6DEDCC5527C5C15A005DCE8F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6DEDCC5627C5C15A005DCE8F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6DEDCC5F27C5C15B005DCE8F /* Forismatic QuoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DEDCC6027C5C15B005DCE8F /* Forismatic_QuoteTests.swift */,
+			);
+			path = "Forismatic QuoteTests";
+			sourceTree = "<group>";
+		};
+		6DEDCC6927C5C15B005DCE8F /* Forismatic QuoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DEDCC6A27C5C15B005DCE8F /* Forismatic_QuoteUITests.swift */,
+				6DEDCC6C27C5C15B005DCE8F /* Forismatic_QuoteUITestsLaunchTests.swift */,
+			);
+			path = "Forismatic QuoteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DEDCC4B27C5C135005DCE8F /* Forismatic Quote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DEDCC7027C5C15B005DCE8F /* Build configuration list for PBXNativeTarget "Forismatic Quote" */;
+			buildPhases = (
+				6DEDCC4827C5C135005DCE8F /* Sources */,
+				6DEDCC4927C5C135005DCE8F /* Frameworks */,
+				6DEDCC4A27C5C135005DCE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Forismatic Quote";
+			productName = "Forismatic Quote";
+			productReference = 6DEDCC4C27C5C135005DCE8F /* Forismatic Quote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DEDCC5B27C5C15B005DCE8F /* Forismatic QuoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DEDCC7327C5C15B005DCE8F /* Build configuration list for PBXNativeTarget "Forismatic QuoteTests" */;
+			buildPhases = (
+				6DEDCC5827C5C15B005DCE8F /* Sources */,
+				6DEDCC5927C5C15B005DCE8F /* Frameworks */,
+				6DEDCC5A27C5C15B005DCE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DEDCC5E27C5C15B005DCE8F /* PBXTargetDependency */,
+			);
+			name = "Forismatic QuoteTests";
+			productName = "Forismatic QuoteTests";
+			productReference = 6DEDCC5C27C5C15B005DCE8F /* Forismatic QuoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DEDCC6527C5C15B005DCE8F /* Forismatic QuoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DEDCC7627C5C15B005DCE8F /* Build configuration list for PBXNativeTarget "Forismatic QuoteUITests" */;
+			buildPhases = (
+				6DEDCC6227C5C15B005DCE8F /* Sources */,
+				6DEDCC6327C5C15B005DCE8F /* Frameworks */,
+				6DEDCC6427C5C15B005DCE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DEDCC6827C5C15B005DCE8F /* PBXTargetDependency */,
+			);
+			name = "Forismatic QuoteUITests";
+			productName = "Forismatic QuoteUITests";
+			productReference = 6DEDCC6627C5C15B005DCE8F /* Forismatic QuoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DEDCC4427C5C135005DCE8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					6DEDCC4B27C5C135005DCE8F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					6DEDCC5B27C5C15B005DCE8F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 6DEDCC4B27C5C135005DCE8F;
+					};
+					6DEDCC6527C5C15B005DCE8F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 6DEDCC4B27C5C135005DCE8F;
+					};
+				};
+			};
+			buildConfigurationList = 6DEDCC4727C5C135005DCE8F /* Build configuration list for PBXProject "Forismatic Quote" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DEDCC4327C5C135005DCE8F;
+			productRefGroup = 6DEDCC4D27C5C135005DCE8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DEDCC4B27C5C135005DCE8F /* Forismatic Quote */,
+				6DEDCC5B27C5C15B005DCE8F /* Forismatic QuoteTests */,
+				6DEDCC6527C5C15B005DCE8F /* Forismatic QuoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DEDCC4A27C5C135005DCE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEDCC5727C5C15A005DCE8F /* Preview Assets.xcassets in Resources */,
+				6DEDCC5427C5C15A005DCE8F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEDCC5A27C5C15B005DCE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEDCC6427C5C15B005DCE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DEDCC4827C5C135005DCE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEDCC5227C5C135005DCE8F /* ContentView.swift in Sources */,
+				6DEDCC5027C5C135005DCE8F /* Forismatic_QuoteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEDCC5827C5C15B005DCE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEDCC6127C5C15B005DCE8F /* Forismatic_QuoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEDCC6227C5C15B005DCE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEDCC6D27C5C15B005DCE8F /* Forismatic_QuoteUITestsLaunchTests.swift in Sources */,
+				6DEDCC6B27C5C15B005DCE8F /* Forismatic_QuoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DEDCC5E27C5C15B005DCE8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DEDCC4B27C5C135005DCE8F /* Forismatic Quote */;
+			targetProxy = 6DEDCC5D27C5C15B005DCE8F /* PBXContainerItemProxy */;
+		};
+		6DEDCC6827C5C15B005DCE8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DEDCC4B27C5C135005DCE8F /* Forismatic Quote */;
+			targetProxy = 6DEDCC6727C5C15B005DCE8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6DEDCC6E27C5C15B005DCE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DEDCC6F27C5C15B005DCE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DEDCC7127C5C15B005DCE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Forismatic Quote/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jerry-Dai.Forismatic-Quote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DEDCC7227C5C15B005DCE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Forismatic Quote/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jerry-Dai.Forismatic-Quote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6DEDCC7427C5C15B005DCE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jerry-Dai.Forismatic-QuoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forismatic Quote.app/Forismatic Quote";
+			};
+			name = Debug;
+		};
+		6DEDCC7527C5C15B005DCE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jerry-Dai.Forismatic-QuoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forismatic Quote.app/Forismatic Quote";
+			};
+			name = Release;
+		};
+		6DEDCC7727C5C15B005DCE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jerry-Dai.Forismatic-QuoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Forismatic Quote";
+			};
+			name = Debug;
+		};
+		6DEDCC7827C5C15B005DCE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jerry-Dai.Forismatic-QuoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Forismatic Quote";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DEDCC4727C5C135005DCE8F /* Build configuration list for PBXProject "Forismatic Quote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DEDCC6E27C5C15B005DCE8F /* Debug */,
+				6DEDCC6F27C5C15B005DCE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DEDCC7027C5C15B005DCE8F /* Build configuration list for PBXNativeTarget "Forismatic Quote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DEDCC7127C5C15B005DCE8F /* Debug */,
+				6DEDCC7227C5C15B005DCE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DEDCC7327C5C15B005DCE8F /* Build configuration list for PBXNativeTarget "Forismatic QuoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DEDCC7427C5C15B005DCE8F /* Debug */,
+				6DEDCC7527C5C15B005DCE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DEDCC7627C5C15B005DCE8F /* Build configuration list for PBXNativeTarget "Forismatic QuoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DEDCC7727C5C15B005DCE8F /* Debug */,
+				6DEDCC7827C5C15B005DCE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DEDCC4427C5C135005DCE8F /* Project object */;
+}
