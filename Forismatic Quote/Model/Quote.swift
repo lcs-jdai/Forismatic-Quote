@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ForismaticQuote: Decodable {
+struct ForismaticQuote: Decodable, Hashable {
     let quoteText:String
     let quoteAuthor: String
     let senderName: String
