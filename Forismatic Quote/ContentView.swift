@@ -91,7 +91,7 @@ struct ContentView: View {
             loadFavourites()
             
         }
-        onChange(of: scenePhase){
+        .onChange(of: scenePhase){
             newPhase in
             
             if newPhase == .inactive{
